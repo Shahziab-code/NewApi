@@ -4,13 +4,7 @@
 
 .postItem {
   display: flex;
-  width: 70%;
   justify-content: space-between;
-  align-items: center;
-  background-color: #f4f4f4;
-  margin-bottom: 10px;
-  padding: 10px;
-  border-radius: 5px;
 }
 
 .container ul {
@@ -19,4 +13,52 @@
   justify-content: center;
   flex-direction: column;
   list-style: none;
+}
+
+.container ul li {
+  width: 70%;
+  background-color: rgb(181 181 181);
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(53 53 53);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0px 3px 10px #000000;
+}
+
+.editBtn {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.inputText {
+  width: 30rem;
+  border: none;
+  padding: 6px;
+  margin: -3px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 900;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  color: #433d3d;
+  outline: none;
+}
+
+li button {
+  padding: 1px 17px;
+  border: 1px solid #e7e7e7;
+  background: #5d5858;
+  color: #e1e1e1;
+  border-radius: 7px;
+  margin: -5px;
+  margin-left: 25px;
+}
+
+li button:hover {
+  background-color: #ececec;
+  color: rgb(71, 71, 71);
+  cursor: pointer;
+  box-shadow: 0px 3px 13px #3b3b3b;
 }
